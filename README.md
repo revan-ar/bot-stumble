@@ -10,5 +10,5 @@ Push Rank Stumble
  - $ cd bot-stumble
  - $ python3 push_rank.py
  
- #NB:
+ # NB:
  jangan tutup aplikasi stumble ketika jalanin botnya
