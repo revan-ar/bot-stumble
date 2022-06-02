@@ -9,3 +9,6 @@ Push Rank Stumble
  - paste authorization ke file auth.txt
  - $ cd bot-stumble
  - $ python3 push_rank.py
+ 
+ #NB:
+ jangan tutup aplikasi stumble ketika jalanin botnya

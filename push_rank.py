@@ -16,7 +16,7 @@ def push_rank():
 		req = requests.get('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/2', headers=headers)
 		response = json.loads(req.text)
 		print('[{}-{}-{} {}:{}:{}] SUCCESS |TROPI: {} |MAHKOTA: {}'.format(jam.year, jam.month, jam.day, jam.hour, jam.minute, jam.second, response['User']['SkillRating'], response['User']['Crowns']))
-		time.sleep(0.5)
+		time.sleep(0.05)
 
 
 for i in range(1, total_thread + 1):
